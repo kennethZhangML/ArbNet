@@ -21,6 +21,7 @@ void MarketData::addDataPoint(const std::string& instrumentID, const std::chrono
     auto instrumentData = getInstrumentData(instrumentID);
     if (instrumentData) {
         instrumentData->addDataPoint(timestamp, price, volume);
+        notifyObservers(instrumentID);  
     } else {
         std::cerr << "Instrument " << instrumentID << " not found!" << std::endl;
     }
@@ -29,4 +30,30 @@ void MarketData::addDataPoint(const std::string& instrumentID, const std::chrono
 std::map<std::string, std::shared_ptr<InstrumentData>> MarketData::getAllInstruments() const {
     std::lock_guard<std::mutex> lock(marketDataMutex);
     return instruments;
+}
+
+void MarketData::addObserver(const std::shared_ptr<MarketObserver>& observer) {
+    std::lock_guard<std::mutex> lock(marketDataMutex);
+    observers.push_back(observer);
+}
+
+void MarketData::removeObserver(const std::shared_ptr<MarketObserver>& observer) {
+    std::lock_guard<std::mutex> lock(marketDataMutex);
+    observers.erase(std::remove_if(observers.begin(), observers.end(),
+                                   [&observer](const std::weak_ptr<MarketObserver>& o) {
+                                       return o.lock() == observer;
+                                   }),
+                    observers.end());
+}
+
+void MarketData::notifyObservers(const std::string& instrumentID) {
+    std::lock_guard<std::mutex> lock(marketDataMutex);
+    for (auto it = observers.begin(); it != observers.end(); ) {
+        if (auto obs = it->lock()) {
+            obs->update(instrumentID);
+            ++it;
+        } else {
+            it = observers.erase(it);
+        }
+    }
 }

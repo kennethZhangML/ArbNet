@@ -129,6 +129,30 @@ ArbNet/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/build
 .PHONY : ArbNet/fast
 
+src/BondData.o: src/BondData.cpp.o
+.PHONY : src/BondData.o
+
+# target to build an object file
+src/BondData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/BondData.cpp.o
+.PHONY : src/BondData.cpp.o
+
+src/BondData.i: src/BondData.cpp.i
+.PHONY : src/BondData.i
+
+# target to preprocess a source file
+src/BondData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/BondData.cpp.i
+.PHONY : src/BondData.cpp.i
+
+src/BondData.s: src/BondData.cpp.s
+.PHONY : src/BondData.s
+
+# target to generate assembly for a file
+src/BondData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/BondData.cpp.s
+.PHONY : src/BondData.cpp.s
+
 src/EquityData.o: src/EquityData.cpp.o
 .PHONY : src/EquityData.o
 
@@ -152,6 +176,30 @@ src/EquityData.s: src/EquityData.cpp.s
 src/EquityData.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/EquityData.cpp.s
 .PHONY : src/EquityData.cpp.s
+
+src/ForexData.o: src/ForexData.cpp.o
+.PHONY : src/ForexData.o
+
+# target to build an object file
+src/ForexData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/ForexData.cpp.o
+.PHONY : src/ForexData.cpp.o
+
+src/ForexData.i: src/ForexData.cpp.i
+.PHONY : src/ForexData.i
+
+# target to preprocess a source file
+src/ForexData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/ForexData.cpp.i
+.PHONY : src/ForexData.cpp.i
+
+src/ForexData.s: src/ForexData.cpp.s
+.PHONY : src/ForexData.s
+
+# target to generate assembly for a file
+src/ForexData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/ForexData.cpp.s
+.PHONY : src/ForexData.cpp.s
 
 src/InstrumentData.o: src/InstrumentData.cpp.o
 .PHONY : src/InstrumentData.o
@@ -210,9 +258,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ArbNet"
+	@echo "... src/BondData.o"
+	@echo "... src/BondData.i"
+	@echo "... src/BondData.s"
 	@echo "... src/EquityData.o"
 	@echo "... src/EquityData.i"
 	@echo "... src/EquityData.s"
+	@echo "... src/ForexData.o"
+	@echo "... src/ForexData.i"
+	@echo "... src/ForexData.s"
 	@echo "... src/InstrumentData.o"
 	@echo "... src/InstrumentData.i"
 	@echo "... src/InstrumentData.s"

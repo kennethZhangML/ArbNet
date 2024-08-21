@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "ArbNet"
   "ArbNet.pdb"
+  "CMakeFiles/ArbNet.dir/src/BondData.cpp.o"
+  "CMakeFiles/ArbNet.dir/src/BondData.cpp.o.d"
   "CMakeFiles/ArbNet.dir/src/EquityData.cpp.o"
   "CMakeFiles/ArbNet.dir/src/EquityData.cpp.o.d"
+  "CMakeFiles/ArbNet.dir/src/ForexData.cpp.o"
+  "CMakeFiles/ArbNet.dir/src/ForexData.cpp.o.d"
   "CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o"
   "CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o.d"
   "CMakeFiles/ArbNet.dir/src/MarketData.cpp.o"

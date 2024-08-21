@@ -69,10 +69,24 @@ include CMakeFiles/ArbNet.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ArbNet.dir/flags.make
 
+CMakeFiles/ArbNet.dir/src/BondData.cpp.o: CMakeFiles/ArbNet.dir/flags.make
+CMakeFiles/ArbNet.dir/src/BondData.cpp.o: /Users/kennethzhang/Desktop/ArbNet/src/BondData.cpp
+CMakeFiles/ArbNet.dir/src/BondData.cpp.o: CMakeFiles/ArbNet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ArbNet.dir/src/BondData.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ArbNet.dir/src/BondData.cpp.o -MF CMakeFiles/ArbNet.dir/src/BondData.cpp.o.d -o CMakeFiles/ArbNet.dir/src/BondData.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/BondData.cpp
+
+CMakeFiles/ArbNet.dir/src/BondData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ArbNet.dir/src/BondData.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kennethzhang/Desktop/ArbNet/src/BondData.cpp > CMakeFiles/ArbNet.dir/src/BondData.cpp.i
+
+CMakeFiles/ArbNet.dir/src/BondData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ArbNet.dir/src/BondData.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kennethzhang/Desktop/ArbNet/src/BondData.cpp -o CMakeFiles/ArbNet.dir/src/BondData.cpp.s
+
 CMakeFiles/ArbNet.dir/src/EquityData.cpp.o: CMakeFiles/ArbNet.dir/flags.make
 CMakeFiles/ArbNet.dir/src/EquityData.cpp.o: /Users/kennethzhang/Desktop/ArbNet/src/EquityData.cpp
 CMakeFiles/ArbNet.dir/src/EquityData.cpp.o: CMakeFiles/ArbNet.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ArbNet.dir/src/EquityData.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ArbNet.dir/src/EquityData.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ArbNet.dir/src/EquityData.cpp.o -MF CMakeFiles/ArbNet.dir/src/EquityData.cpp.o.d -o CMakeFiles/ArbNet.dir/src/EquityData.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/EquityData.cpp
 
 CMakeFiles/ArbNet.dir/src/EquityData.cpp.i: cmake_force
@@ -83,10 +97,24 @@ CMakeFiles/ArbNet.dir/src/EquityData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ArbNet.dir/src/EquityData.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kennethzhang/Desktop/ArbNet/src/EquityData.cpp -o CMakeFiles/ArbNet.dir/src/EquityData.cpp.s
 
+CMakeFiles/ArbNet.dir/src/ForexData.cpp.o: CMakeFiles/ArbNet.dir/flags.make
+CMakeFiles/ArbNet.dir/src/ForexData.cpp.o: /Users/kennethzhang/Desktop/ArbNet/src/ForexData.cpp
+CMakeFiles/ArbNet.dir/src/ForexData.cpp.o: CMakeFiles/ArbNet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ArbNet.dir/src/ForexData.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ArbNet.dir/src/ForexData.cpp.o -MF CMakeFiles/ArbNet.dir/src/ForexData.cpp.o.d -o CMakeFiles/ArbNet.dir/src/ForexData.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/ForexData.cpp
+
+CMakeFiles/ArbNet.dir/src/ForexData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ArbNet.dir/src/ForexData.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kennethzhang/Desktop/ArbNet/src/ForexData.cpp > CMakeFiles/ArbNet.dir/src/ForexData.cpp.i
+
+CMakeFiles/ArbNet.dir/src/ForexData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ArbNet.dir/src/ForexData.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kennethzhang/Desktop/ArbNet/src/ForexData.cpp -o CMakeFiles/ArbNet.dir/src/ForexData.cpp.s
+
 CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o: CMakeFiles/ArbNet.dir/flags.make
 CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o: /Users/kennethzhang/Desktop/ArbNet/src/InstrumentData.cpp
 CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o: CMakeFiles/ArbNet.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o -MF CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o.d -o CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/InstrumentData.cpp
 
 CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.i: cmake_force
@@ -100,7 +128,7 @@ CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.s: cmake_force
 CMakeFiles/ArbNet.dir/src/MarketData.cpp.o: CMakeFiles/ArbNet.dir/flags.make
 CMakeFiles/ArbNet.dir/src/MarketData.cpp.o: /Users/kennethzhang/Desktop/ArbNet/src/MarketData.cpp
 CMakeFiles/ArbNet.dir/src/MarketData.cpp.o: CMakeFiles/ArbNet.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ArbNet.dir/src/MarketData.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ArbNet.dir/src/MarketData.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ArbNet.dir/src/MarketData.cpp.o -MF CMakeFiles/ArbNet.dir/src/MarketData.cpp.o.d -o CMakeFiles/ArbNet.dir/src/MarketData.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/MarketData.cpp
 
 CMakeFiles/ArbNet.dir/src/MarketData.cpp.i: cmake_force
@@ -113,19 +141,23 @@ CMakeFiles/ArbNet.dir/src/MarketData.cpp.s: cmake_force
 
 # Object files for target ArbNet
 ArbNet_OBJECTS = \
+"CMakeFiles/ArbNet.dir/src/BondData.cpp.o" \
 "CMakeFiles/ArbNet.dir/src/EquityData.cpp.o" \
+"CMakeFiles/ArbNet.dir/src/ForexData.cpp.o" \
 "CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o" \
 "CMakeFiles/ArbNet.dir/src/MarketData.cpp.o"
 
 # External object files for target ArbNet
 ArbNet_EXTERNAL_OBJECTS =
 
+ArbNet: CMakeFiles/ArbNet.dir/src/BondData.cpp.o
 ArbNet: CMakeFiles/ArbNet.dir/src/EquityData.cpp.o
+ArbNet: CMakeFiles/ArbNet.dir/src/ForexData.cpp.o
 ArbNet: CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o
 ArbNet: CMakeFiles/ArbNet.dir/src/MarketData.cpp.o
 ArbNet: CMakeFiles/ArbNet.dir/build.make
 ArbNet: CMakeFiles/ArbNet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ArbNet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ArbNet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ArbNet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

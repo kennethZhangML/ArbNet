@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/kennethzhang/Desktop/ArbNet/src/BondData.cpp" "CMakeFiles/ArbNet.dir/src/BondData.cpp.o" "gcc" "CMakeFiles/ArbNet.dir/src/BondData.cpp.o.d"
   "/Users/kennethzhang/Desktop/ArbNet/src/EquityData.cpp" "CMakeFiles/ArbNet.dir/src/EquityData.cpp.o" "gcc" "CMakeFiles/ArbNet.dir/src/EquityData.cpp.o.d"
+  "/Users/kennethzhang/Desktop/ArbNet/src/ForexData.cpp" "CMakeFiles/ArbNet.dir/src/ForexData.cpp.o" "gcc" "CMakeFiles/ArbNet.dir/src/ForexData.cpp.o.d"
   "/Users/kennethzhang/Desktop/ArbNet/src/InstrumentData.cpp" "CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o" "gcc" "CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o.d"
   "/Users/kennethzhang/Desktop/ArbNet/src/MarketData.cpp" "CMakeFiles/ArbNet.dir/src/MarketData.cpp.o" "gcc" "CMakeFiles/ArbNet.dir/src/MarketData.cpp.o.d"
   )

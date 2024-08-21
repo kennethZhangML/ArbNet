@@ -1,6 +1,6 @@
-CMakeFiles/ArbNet.dir/src/MarketData.cpp.o: \
-  /Users/kennethzhang/Desktop/ArbNet/src/MarketData.cpp \
-  /Users/kennethzhang/Desktop/ArbNet/include/MarketData.h \
+CMakeFiles/ArbNet.dir/src/ForexData.cpp.o: \
+  /Users/kennethzhang/Desktop/ArbNet/src/ForexData.cpp \
+  /Users/kennethzhang/Desktop/ArbNet/include/ForexData.h \
   /Users/kennethzhang/Desktop/ArbNet/include/InstrumentData.h \
   /Users/kennethzhang/Desktop/ArbNet/include/DataPoint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/chrono \
@@ -733,7 +733,4 @@ CMakeFiles/ArbNet.dir/src/MarketData.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/kennethzhang/Desktop/ArbNet/include/MarketObserver.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
