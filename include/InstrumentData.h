@@ -7,7 +7,7 @@
 #include <mutex>
 
 class InstrumentData {
-private:
+protected:
     std::string instrumentID;
     std::vector<DataPoint> dataPoints;
     mutable std::mutex dataMutex;
