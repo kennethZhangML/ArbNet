@@ -1,80 +1,82 @@
-#include "MainWindow.h"
-#include "InstrumentDataFactory.h"
-#include "StrategyExamples/MeanReversionStrategy.h"
-#include "StrategyExamples/MomentumStrategy.h"
-#include "StrategyExamples/BreakoutStrategy.h"
-#include "StrategyExamples/RSIStrategy.h"
-#include <QVBoxLayout>
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent) {
-    initializeUI();
-}
+// TODO: Complete MainWindow.cpp (complete QT Integration)
+// #include "MainWindow.h"
+// #include "InstrumentDataFactory.h"
+// #include "StrategyExamples/MeanReversionStrategy.h"
+// #include "StrategyExamples/MomentumStrategy.h"
+// #include "StrategyExamples/BreakoutStrategy.h"
+// #include "StrategyExamples/RSIStrategy.h"
+// // #include <QVBoxLayout>
 
-MainWindow::~MainWindow() {}
+// MainWindow::MainWindow(QWidget *parent)
+//     : QMainWindow(parent) {
+//     initializeUI();
+// }
 
-void MainWindow::initializeUI() {
-    QWidget *centralWidget = new QWidget(this);
-    QVBoxLayout *layout = new QVBoxLayout(centralWidget);
+// MainWindow::~MainWindow() {}
 
-    instrumentSelector = new QComboBox(this);
-    strategySelector = new QComboBox(this);
-    outputArea = new QTextEdit(this);
-    loadButton = new QPushButton("Load Instrument", this);
-    applyButton = new QPushButton("Apply Strategy", this);
+// void MainWindow::initializeUI() {
+//     QWidget *centralWidget = new QWidget(this);
+//     QVBoxLayout *layout = new QVBoxLayout(centralWidget);
 
-    layout->addWidget(instrumentSelector);
-    layout->addWidget(strategySelector);
-    layout->addWidget(loadButton);
-    layout->addWidget(applyButton);
-    layout->addWidget(outputArea);
+//     instrumentSelector = new QComboBox(this);
+//     strategySelector = new QComboBox(this);
+//     outputArea = new QTextEdit(this);
+//     loadButton = new QPushButton("Load Instrument", this);
+//     applyButton = new QPushButton("Apply Strategy", this);
 
-    setCentralWidget(centralWidget);
+//     layout->addWidget(instrumentSelector);
+//     layout->addWidget(strategySelector);
+//     layout->addWidget(loadButton);
+//     layout->addWidget(applyButton);
+//     layout->addWidget(outputArea);
 
-    populateInstruments();
-    populateStrategies();
+//     setCentralWidget(centralWidget);
 
-    connect(loadButton, &QPushButton::clicked, this, &MainWindow::onLoadInstrument);
-    connect(applyButton, &QPushButton::clicked, this, &MainWindow::onApplyStrategy);
-}
+//     populateInstruments();
+//     populateStrategies();
 
-void MainWindow::populateInstruments() {
-    instrumentSelector->addItem("AAPL");
-    instrumentSelector->addItem("EURUSD");
-    instrumentSelector->addItem("US10Y");
-}
+//     connect(loadButton, &QPushButton::clicked, this, &MainWindow::onLoadInstrument);
+//     connect(applyButton, &QPushButton::clicked, this, &MainWindow::onApplyStrategy);
+// }
 
-void MainWindow::populateStrategies() {
-    strategySelector->addItem("Mean Reversion");
-    strategySelector->addItem("Momentum");
-    strategySelector->addItem("Breakout");
-    strategySelector->addItem("RSI");
-}
+// void MainWindow::populateInstruments() {
+//     instrumentSelector->addItem("AAPL");
+//     instrumentSelector->addItem("EURUSD");
+//     instrumentSelector->addItem("US10Y");
+// }
 
-void MainWindow::onLoadInstrument() {
-    QString instrument = instrumentSelector->currentText();
-    outputArea->append("Loaded instrument: " + instrument);
-}
+// void MainWindow::populateStrategies() {
+//     strategySelector->addItem("Mean Reversion");
+//     strategySelector->addItem("Momentum");
+//     strategySelector->addItem("Breakout");
+//     strategySelector->addItem("RSI");
+// }
 
-void MainWindow::onApplyStrategy() {
-    QString strategy = strategySelector->currentText();
-    QString instrument = instrumentSelector->currentText();
+// void MainWindow::onLoadInstrument() {
+//     QString instrument = instrumentSelector->currentText();
+//     outputArea->append("Loaded instrument: " + instrument);
+// }
 
-    auto instrumentData = InstrumentDataFactory::createInstrumentData("equity", instrument.toStdString());
+// void MainWindow::onApplyStrategy() {
+//     QString strategy = strategySelector->currentText();
+//     QString instrument = instrumentSelector->currentText();
 
-    std::shared_ptr<TradingStrategy> selectedStrategy;
-    if (strategy == "Mean Reversion") {
-        selectedStrategy = std::make_shared<MeanReversionStrategy>();
-    } else if (strategy == "Momentum") {
-        selectedStrategy = std::make_shared<MomentumStrategy>();
-    } else if (strategy == "Breakout") {
-        selectedStrategy = std::make_shared<BreakoutStrategy>();
-    } else if (strategy == "RSI") {
-        selectedStrategy = std::make_shared<RSIStrategy>();
-    }
+//     auto instrumentData = InstrumentDataFactory::createInstrumentData("equity", instrument.toStdString());
 
-    if (selectedStrategy && instrumentData) {
-        selectedStrategy->execute(instrumentData);
-        outputArea->append("Applied " + strategy + " strategy on " + instrument);
-    }
-}
+//     std::shared_ptr<TradingStrategy> selectedStrategy;
+//     if (strategy == "Mean Reversion") {
+//         selectedStrategy = std::make_shared<MeanReversionStrategy>();
+//     } else if (strategy == "Momentum") {
+//         selectedStrategy = std::make_shared<MomentumStrategy>();
+//     } else if (strategy == "Breakout") {
+//         selectedStrategy = std::make_shared<BreakoutStrategy>();
+//     } else if (strategy == "RSI") {
+//         selectedStrategy = std::make_shared<RSIStrategy>();
+//     }
+
+//     if (selectedStrategy && instrumentData) {
+//         selectedStrategy->execute(instrumentData);
+//         outputArea->append("Applied " + strategy + " strategy on " + instrument);
+//     }
+// }

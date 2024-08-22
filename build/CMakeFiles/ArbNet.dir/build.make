@@ -188,6 +188,9 @@ ArbNet: CMakeFiles/ArbNet.dir/src/MainWindow.cpp.o
 ArbNet: CMakeFiles/ArbNet.dir/src/MarketData.cpp.o
 ArbNet: CMakeFiles/ArbNet.dir/src/main.cpp.o
 ArbNet: CMakeFiles/ArbNet.dir/build.make
+ArbNet: /Users/kennethzhang/opt/miniconda3/lib/libQt5Widgets.5.15.2.dylib
+ArbNet: /Users/kennethzhang/opt/miniconda3/lib/libQt5Gui.5.15.2.dylib
+ArbNet: /Users/kennethzhang/opt/miniconda3/lib/libQt5Core.5.15.2.dylib
 ArbNet: CMakeFiles/ArbNet.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ArbNet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ArbNet.dir/link.txt --verbose=$(VERBOSE)
