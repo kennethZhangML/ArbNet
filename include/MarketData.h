@@ -12,9 +12,19 @@ class MarketData {
 private:
     std::map<std::string, std::shared_ptr<InstrumentData>> instruments;
     mutable std::mutex marketDataMutex;
-    std::vector<std::weak_ptr<MarketObserver>> observers;  
+    std::vector<std::weak_ptr<MarketObserver>> observers;
+
+    MarketData() = default;
 
 public:
+    MarketData(const MarketData&) = delete;
+    MarketData& operator=(const MarketData&) = delete;
+
+    static MarketData& getInstance() {
+        static MarketData instance;
+        return instance;
+    }
+
     void addInstrument(const std::string& instrumentID);
     std::shared_ptr<InstrumentData> getInstrumentData(const std::string& instrumentID);
     void addDataPoint(const std::string& instrumentID, const std::chrono::time_point<std::chrono::system_clock>& timestamp, double price, double volume);

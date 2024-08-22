@@ -9,8 +9,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/ArbNet.dir/src/ForexData.cpp.o.d"
   "CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o"
   "CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o.d"
+  "CMakeFiles/ArbNet.dir/src/MainWindow.cpp.o"
+  "CMakeFiles/ArbNet.dir/src/MainWindow.cpp.o.d"
   "CMakeFiles/ArbNet.dir/src/MarketData.cpp.o"
   "CMakeFiles/ArbNet.dir/src/MarketData.cpp.o.d"
+  "CMakeFiles/ArbNet.dir/src/main.cpp.o"
+  "CMakeFiles/ArbNet.dir/src/main.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

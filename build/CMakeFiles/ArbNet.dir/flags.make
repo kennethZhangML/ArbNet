@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/kennethzhang/Desktop/ArbNet/include
+CXX_INCLUDES = -I/Users/kennethzhang/Desktop/ArbNet/include -I/Users/kennethzhang/Desktop/ArbNet/include/StrategyExamples
 
 CXX_FLAGSarm64 = -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 

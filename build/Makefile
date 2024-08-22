@@ -225,6 +225,30 @@ src/InstrumentData.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.s
 .PHONY : src/InstrumentData.cpp.s
 
+src/MainWindow.o: src/MainWindow.cpp.o
+.PHONY : src/MainWindow.o
+
+# target to build an object file
+src/MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/MainWindow.cpp.o
+.PHONY : src/MainWindow.cpp.o
+
+src/MainWindow.i: src/MainWindow.cpp.i
+.PHONY : src/MainWindow.i
+
+# target to preprocess a source file
+src/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/MainWindow.cpp.i
+.PHONY : src/MainWindow.cpp.i
+
+src/MainWindow.s: src/MainWindow.cpp.s
+.PHONY : src/MainWindow.s
+
+# target to generate assembly for a file
+src/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/MainWindow.cpp.s
+.PHONY : src/MainWindow.cpp.s
+
 src/MarketData.o: src/MarketData.cpp.o
 .PHONY : src/MarketData.o
 
@@ -249,6 +273,30 @@ src/MarketData.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/MarketData.cpp.s
 .PHONY : src/MarketData.cpp.s
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,9 +318,15 @@ help:
 	@echo "... src/InstrumentData.o"
 	@echo "... src/InstrumentData.i"
 	@echo "... src/InstrumentData.s"
+	@echo "... src/MainWindow.o"
+	@echo "... src/MainWindow.i"
+	@echo "... src/MainWindow.s"
 	@echo "... src/MarketData.o"
 	@echo "... src/MarketData.i"
 	@echo "... src/MarketData.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

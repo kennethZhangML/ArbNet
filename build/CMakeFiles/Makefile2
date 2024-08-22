@@ -81,12 +81,12 @@ clean: CMakeFiles/ArbNet.dir/clean
 CMakeFiles/ArbNet.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ArbNet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target ArbNet"
 .PHONY : CMakeFiles/ArbNet.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ArbNet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ArbNet.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kennethzhang/Desktop/ArbNet/build/CMakeFiles 0
 .PHONY : CMakeFiles/ArbNet.dir/rule

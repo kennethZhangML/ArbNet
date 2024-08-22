@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/opt/qt/include",             // Include the main Qt directory
+                "/opt/homebrew/opt/qt/include/QtWidgets",   // Include QtWidgets headers
+                "/opt/homebrew/opt/qt/include/QtCore"       // Include QtCore headers
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",               // Adjust if using a different compiler
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "macos-clang-arm64"         // Ensure this matches your architecture
+        }
+    ],
+    "version": 4
+}
