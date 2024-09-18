@@ -153,6 +153,30 @@ src/BondData.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/BondData.cpp.s
 .PHONY : src/BondData.cpp.s
 
+src/CSVLoader.o: src/CSVLoader.cpp.o
+.PHONY : src/CSVLoader.o
+
+# target to build an object file
+src/CSVLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/CSVLoader.cpp.o
+.PHONY : src/CSVLoader.cpp.o
+
+src/CSVLoader.i: src/CSVLoader.cpp.i
+.PHONY : src/CSVLoader.i
+
+# target to preprocess a source file
+src/CSVLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/CSVLoader.cpp.i
+.PHONY : src/CSVLoader.cpp.i
+
+src/CSVLoader.s: src/CSVLoader.cpp.s
+.PHONY : src/CSVLoader.s
+
+# target to generate assembly for a file
+src/CSVLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/CSVLoader.cpp.s
+.PHONY : src/CSVLoader.cpp.s
+
 src/EquityData.o: src/EquityData.cpp.o
 .PHONY : src/EquityData.o
 
@@ -225,30 +249,6 @@ src/InstrumentData.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.s
 .PHONY : src/InstrumentData.cpp.s
 
-src/MainWindow.o: src/MainWindow.cpp.o
-.PHONY : src/MainWindow.o
-
-# target to build an object file
-src/MainWindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/MainWindow.cpp.o
-.PHONY : src/MainWindow.cpp.o
-
-src/MainWindow.i: src/MainWindow.cpp.i
-.PHONY : src/MainWindow.i
-
-# target to preprocess a source file
-src/MainWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/MainWindow.cpp.i
-.PHONY : src/MainWindow.cpp.i
-
-src/MainWindow.s: src/MainWindow.cpp.s
-.PHONY : src/MainWindow.s
-
-# target to generate assembly for a file
-src/MainWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/MainWindow.cpp.s
-.PHONY : src/MainWindow.cpp.s
-
 src/MarketData.o: src/MarketData.cpp.o
 .PHONY : src/MarketData.o
 
@@ -272,6 +272,30 @@ src/MarketData.s: src/MarketData.cpp.s
 src/MarketData.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/MarketData.cpp.s
 .PHONY : src/MarketData.cpp.s
+
+src/RiskMetrics.o: src/RiskMetrics.cpp.o
+.PHONY : src/RiskMetrics.o
+
+# target to build an object file
+src/RiskMetrics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/RiskMetrics.cpp.o
+.PHONY : src/RiskMetrics.cpp.o
+
+src/RiskMetrics.i: src/RiskMetrics.cpp.i
+.PHONY : src/RiskMetrics.i
+
+# target to preprocess a source file
+src/RiskMetrics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/RiskMetrics.cpp.i
+.PHONY : src/RiskMetrics.cpp.i
+
+src/RiskMetrics.s: src/RiskMetrics.cpp.s
+.PHONY : src/RiskMetrics.s
+
+# target to generate assembly for a file
+src/RiskMetrics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArbNet.dir/build.make CMakeFiles/ArbNet.dir/src/RiskMetrics.cpp.s
+.PHONY : src/RiskMetrics.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -309,6 +333,9 @@ help:
 	@echo "... src/BondData.o"
 	@echo "... src/BondData.i"
 	@echo "... src/BondData.s"
+	@echo "... src/CSVLoader.o"
+	@echo "... src/CSVLoader.i"
+	@echo "... src/CSVLoader.s"
 	@echo "... src/EquityData.o"
 	@echo "... src/EquityData.i"
 	@echo "... src/EquityData.s"
@@ -318,12 +345,12 @@ help:
 	@echo "... src/InstrumentData.o"
 	@echo "... src/InstrumentData.i"
 	@echo "... src/InstrumentData.s"
-	@echo "... src/MainWindow.o"
-	@echo "... src/MainWindow.i"
-	@echo "... src/MainWindow.s"
 	@echo "... src/MarketData.o"
 	@echo "... src/MarketData.i"
 	@echo "... src/MarketData.s"
+	@echo "... src/RiskMetrics.o"
+	@echo "... src/RiskMetrics.i"
+	@echo "... src/RiskMetrics.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

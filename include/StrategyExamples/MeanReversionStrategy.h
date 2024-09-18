@@ -7,7 +7,7 @@
 class MeanReversionStrategy : public TradingStrategy {
 public:
     void execute(const std::shared_ptr<InstrumentData>& data) override {
-        double avg = data->calculateMovingAverage(20); // 20-period moving average
+        double avg = data->calculateMovingAverage(20); 
         double price = data->getDataPoints().back().price;
 
         if (price < avg) {

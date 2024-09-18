@@ -14,6 +14,7 @@ protected:
 
 public:
     InstrumentData(const std::string& id);
+    virtual ~InstrumentData() {}
 
     void addDataPoint(const std::chrono::time_point<std::chrono::system_clock>& timestamp, double price, double volume);
     std::vector<DataPoint> getDataPoints() const;

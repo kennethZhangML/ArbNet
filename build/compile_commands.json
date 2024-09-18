@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/kennethzhang/Desktop/ArbNet/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/kennethzhang/Desktop/ArbNet/include -I/Users/kennethzhang/Desktop/ArbNet/include/StrategyExamples -I/opt/homebrew/opt/qt/include -isystem /Users/kennethzhang/opt/miniconda3/include/qt -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtWidgets -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtGui -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtCore -isystem /Users/kennethzhang/opt/miniconda3/./mkspecs/macx-clang -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -o CMakeFiles/ArbNet.dir/src/BondData.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/BondData.cpp",
+  "file": "/Users/kennethzhang/Desktop/ArbNet/src/BondData.cpp",
+  "output": "CMakeFiles/ArbNet.dir/src/BondData.cpp.o"
+},
+{
+  "directory": "/Users/kennethzhang/Desktop/ArbNet/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/kennethzhang/Desktop/ArbNet/include -I/Users/kennethzhang/Desktop/ArbNet/include/StrategyExamples -I/opt/homebrew/opt/qt/include -isystem /Users/kennethzhang/opt/miniconda3/include/qt -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtWidgets -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtGui -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtCore -isystem /Users/kennethzhang/opt/miniconda3/./mkspecs/macx-clang -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -o CMakeFiles/ArbNet.dir/src/CSVLoader.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/CSVLoader.cpp",
+  "file": "/Users/kennethzhang/Desktop/ArbNet/src/CSVLoader.cpp",
+  "output": "CMakeFiles/ArbNet.dir/src/CSVLoader.cpp.o"
+},
+{
+  "directory": "/Users/kennethzhang/Desktop/ArbNet/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/kennethzhang/Desktop/ArbNet/include -I/Users/kennethzhang/Desktop/ArbNet/include/StrategyExamples -I/opt/homebrew/opt/qt/include -isystem /Users/kennethzhang/opt/miniconda3/include/qt -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtWidgets -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtGui -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtCore -isystem /Users/kennethzhang/opt/miniconda3/./mkspecs/macx-clang -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -o CMakeFiles/ArbNet.dir/src/EquityData.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/EquityData.cpp",
+  "file": "/Users/kennethzhang/Desktop/ArbNet/src/EquityData.cpp",
+  "output": "CMakeFiles/ArbNet.dir/src/EquityData.cpp.o"
+},
+{
+  "directory": "/Users/kennethzhang/Desktop/ArbNet/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/kennethzhang/Desktop/ArbNet/include -I/Users/kennethzhang/Desktop/ArbNet/include/StrategyExamples -I/opt/homebrew/opt/qt/include -isystem /Users/kennethzhang/opt/miniconda3/include/qt -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtWidgets -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtGui -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtCore -isystem /Users/kennethzhang/opt/miniconda3/./mkspecs/macx-clang -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -o CMakeFiles/ArbNet.dir/src/ForexData.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/ForexData.cpp",
+  "file": "/Users/kennethzhang/Desktop/ArbNet/src/ForexData.cpp",
+  "output": "CMakeFiles/ArbNet.dir/src/ForexData.cpp.o"
+},
+{
+  "directory": "/Users/kennethzhang/Desktop/ArbNet/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/kennethzhang/Desktop/ArbNet/include -I/Users/kennethzhang/Desktop/ArbNet/include/StrategyExamples -I/opt/homebrew/opt/qt/include -isystem /Users/kennethzhang/opt/miniconda3/include/qt -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtWidgets -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtGui -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtCore -isystem /Users/kennethzhang/opt/miniconda3/./mkspecs/macx-clang -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -o CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/InstrumentData.cpp",
+  "file": "/Users/kennethzhang/Desktop/ArbNet/src/InstrumentData.cpp",
+  "output": "CMakeFiles/ArbNet.dir/src/InstrumentData.cpp.o"
+},
+{
+  "directory": "/Users/kennethzhang/Desktop/ArbNet/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/kennethzhang/Desktop/ArbNet/include -I/Users/kennethzhang/Desktop/ArbNet/include/StrategyExamples -I/opt/homebrew/opt/qt/include -isystem /Users/kennethzhang/opt/miniconda3/include/qt -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtWidgets -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtGui -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtCore -isystem /Users/kennethzhang/opt/miniconda3/./mkspecs/macx-clang -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -o CMakeFiles/ArbNet.dir/src/MarketData.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/MarketData.cpp",
+  "file": "/Users/kennethzhang/Desktop/ArbNet/src/MarketData.cpp",
+  "output": "CMakeFiles/ArbNet.dir/src/MarketData.cpp.o"
+},
+{
+  "directory": "/Users/kennethzhang/Desktop/ArbNet/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/kennethzhang/Desktop/ArbNet/include -I/Users/kennethzhang/Desktop/ArbNet/include/StrategyExamples -I/opt/homebrew/opt/qt/include -isystem /Users/kennethzhang/opt/miniconda3/include/qt -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtWidgets -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtGui -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtCore -isystem /Users/kennethzhang/opt/miniconda3/./mkspecs/macx-clang -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -o CMakeFiles/ArbNet.dir/src/RiskMetrics.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/RiskMetrics.cpp",
+  "file": "/Users/kennethzhang/Desktop/ArbNet/src/RiskMetrics.cpp",
+  "output": "CMakeFiles/ArbNet.dir/src/RiskMetrics.cpp.o"
+},
+{
+  "directory": "/Users/kennethzhang/Desktop/ArbNet/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/kennethzhang/Desktop/ArbNet/include -I/Users/kennethzhang/Desktop/ArbNet/include/StrategyExamples -I/opt/homebrew/opt/qt/include -isystem /Users/kennethzhang/opt/miniconda3/include/qt -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtWidgets -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtGui -isystem /Users/kennethzhang/opt/miniconda3/include/qt/QtCore -isystem /Users/kennethzhang/opt/miniconda3/./mkspecs/macx-clang -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -o CMakeFiles/ArbNet.dir/src/main.cpp.o -c /Users/kennethzhang/Desktop/ArbNet/src/main.cpp",
+  "file": "/Users/kennethzhang/Desktop/ArbNet/src/main.cpp",
+  "output": "CMakeFiles/ArbNet.dir/src/main.cpp.o"
+}
+]

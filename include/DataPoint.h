@@ -23,6 +23,17 @@ struct DataPoint {
         dp.timestamp = std::chrono::system_clock::from_time_t(time);
         return is;
     }
+
+    friend std::ostream& operator<<(std::ostream& os, const DataPoint& dp) {
+        if (dp.price != 0 && dp.volume != 0) {
+            os << std::chrono::duration_cast<std::chrono::seconds>(dp.timestamp.time_since_epoch()).count() << " "
+            << dp.price << " " << dp.volume;
+        } else {
+            os << "Invalid DataPoint";
+        }
+        return os;
+    }
+
 };
 
 #endif // DATAPOINT_H
