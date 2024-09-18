@@ -1,6 +1,7 @@
 #include <iostream>
 #include <chrono>
 #include <memory>
+#include <vector> 
 #include "EquityData.h"
 #include "ForexData.h"
 #include "MarketData.h"
@@ -23,6 +24,7 @@ int main() {
     marketData.addDataPoint("AAPL", now, 150.0, 1000);
     marketData.addDataPoint("AAPL", earlier, 145.0, 1200);
     marketData.addDataPoint("AAPL", later, 155.0, 1100);
+
     std::shared_ptr<InstrumentData> equityInstrument = marketData.getInstrumentData("AAPL");
     double equityMovingAverage = equityInstrument->calculateMovingAverage(2);
     std::cout << "AAPL Simple Moving Average (2 periods): " << equityMovingAverage << std::endl;
@@ -55,6 +57,6 @@ int main() {
 
     double forexEMA = forexInstrument->calculateExponentialMovingAverage(3);
     std::cout << "EUR/USD Exponential Moving Average (3 periods): " << forexEMA << std::endl;
-
+    
     return 0;
 }
